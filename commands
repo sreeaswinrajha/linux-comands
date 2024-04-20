@@ -32,3 +32,14 @@ in downloads i wana to open a file name (exercise file) command used to remove s
 we can use .. to go back ex : cd..
 we can use ../../ to go many files back ex : cd ../../
 we can use - to work with two directory ex : cd -
+
+
+operations in files using command promt:
+mkdir : used to create an new folder ex : mkdir newfolder
+rmdir : used to remove the directory ex : rmdir newfolder (it should be emplty else we cannot remove it)
+cp : used to copy the files in to another :file syntax => cp file need to copy whre need to copy , ex : cp rem.txt rem1.txt
+mv : used to move the file from one directory to other directory : syntax => mv file name direcory name ,ex :  mv bug.py Downloads 
+we can even rename the file too using this ex : mv Donloads/bug.py Downloads/new.py
+we use multiple file using symbols:
+* represent all file with extencesion : syntax mv*.txt used to move file where to move,ex => mv *.txt document/textfiles 
+-r we can delete an directory using recursive way (-r) rm -r text ; it will delete entier text directory
