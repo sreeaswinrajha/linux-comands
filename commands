@@ -22,4 +22,13 @@ ctr - u : delete the before line commands
 ctr - k : delete back word commands
 
 
+common configuration file : /etc
+comman programs or command : /bin,/sbin
+shared library modules : /lib
 
+working with directory:
+for opening space seprated file we use / for example :
+in downloads i wana to open a file name (exercise file) command used to remove space is => cd  exercise/file
+we can use .. to go back ex : cd..
+we can use ../../ to go many files back ex : cd ../../
+we can use - to work with two directory ex : cd -
