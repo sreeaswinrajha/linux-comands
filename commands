@@ -43,3 +43,4 @@ we can even rename the file too using this ex : mv Donloads/bug.py Downloads/new
 we use multiple file using symbols:
 * represent all file with extencesion : syntax mv*.txt used to move file where to move,ex => mv *.txt document/textfiles 
 -r we can delete an directory using recursive way (-r) rm -r text ; it will delete entier text directory
+
