@@ -17,3 +17,5 @@ adduser aswin
 create an new user named aswin
 
 /etc/passwd => shows all the user 
+/etc/shadow => stores the password (in hash formate)
+
