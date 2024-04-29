@@ -1,3 +1,8 @@
 to see ip :
 ip a
 ifconfig
+
+netstat  => used to see what connection are on and connected (ex: sending or reciving of data)
+route => connection to where it can connect
+
+
