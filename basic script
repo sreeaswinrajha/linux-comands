@@ -1,0 +1,18 @@
+cat ip.txt | grep "64 bytes" | cut -d " " -f 4 
+192.168.43.126:
+192.168.43.126:
+                
+grep => used to get required dat in it
+cut => used to cut the data 
+cut -d " " -f 4 => delemeter here it's space and 
+f => represet how many line after space it'4 (fields)
+here we neeed to remove : so we use tr
+
+tr => trim  
+$ cat ip.txt | grep "64 bytes" | cut -d " " -f 4 | tr -d ":"
+192.168.43.126
+192.168.43.126
+ here delecate represnt for => :
+
+ using python
+ use gedit to open an new text file to 
