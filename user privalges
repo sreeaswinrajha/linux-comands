@@ -19,3 +19,8 @@ create an new user named aswin
 /etc/passwd => shows all the user 
 /etc/shadow => stores the password (in hash formate)
 
+adduser => used to create an new user and group
+useradd => add user to the group
+sudo passwd ironman :
+assine the password to the user
+
