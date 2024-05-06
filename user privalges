@@ -23,4 +23,7 @@ adduser => used to create an new user and group
 useradd => add user to the group
 sudo passwd ironman :
 assine the password to the user
-usermod : used to modify the user
+usermod : used to modify the user in which various operation we do
+
+sudo visudo:
+used to change user permision which m=we can do
