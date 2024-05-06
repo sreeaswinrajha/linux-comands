@@ -19,8 +19,12 @@ userdel => used to delete user
 userdel aswin
 delete user aswin
 
+sudo groupadd => add an group
+sudo gropadd family
+
 /etc/passwd => shows all the user 
 /etc/shadow => stores the password (in hash formate)
+/etc/group => view the group file
 
 adduser => used to create an new user and group
 useradd => add user to the group
