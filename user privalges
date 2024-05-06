@@ -15,6 +15,9 @@ change the aces to read,write,execute all three operation in it
 adduser => adduser is used to add an user in the kali
 adduser aswin
 create an new user named aswin
+userdel => used to delete user
+userdel aswin
+delete user aswin
 
 /etc/passwd => shows all the user 
 /etc/shadow => stores the password (in hash formate)
