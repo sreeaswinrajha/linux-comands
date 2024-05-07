@@ -5,4 +5,5 @@ git clone (link of the group)
 dpkg
 apt(advanced package tool)
 
+pip3 install -r required.txt
 
