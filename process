@@ -1,0 +1,13 @@
+ps => show the working process
+syntax :
+ps -u "user id"
+ex =>  ps -u kali
+
+to kill a procss we need to use kill command 
+syntax :
+kill process id (to get process id use pgrep ex : pgrep firefox  )
+ex => kill 1307353  
+
+top ,htop :
+used to see the task bar of the process
+
