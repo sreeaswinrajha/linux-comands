@@ -11,3 +11,14 @@ ex => kill 1307353
 top ,htop :
 used to see the task bar of the process
 
+fore ground process => can see what happeing in 
+background proces => can't see wht is hapning
+fg 
+bg use ctrl+z to pasue 
+and use bg to make it background
+to stop the bg nedd to make it fg and make it happen
+
+
+kill :
+used to kill the process
+pkill -9 used to kill the process without the process id
