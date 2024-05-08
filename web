@@ -15,3 +15,11 @@ curl -o hlo.html localhost:8080
 used to know about website:
 curl -I localhost:8080  (used for seeing response heder)
 this command is used to know how website communicate with the client
+
+v => verbose is used to see the post request
+url -v localhost:8080
+
+wget used to download:
+syntax : wget downloadlink
+ex : wger localhost:8080
+download file in the local host
