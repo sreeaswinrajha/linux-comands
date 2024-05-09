@@ -4,6 +4,8 @@ to install an app :
 ls => list the cotents in the cureent directory 
 command => (ls)
 ls -l => show more content details in the directory 
+alias => used to create an new command
+ex : alias hlo="ls" (now when we use hlo it will do ls operation)
 
 help command:
 man -> used to give mannual ex : man ls
