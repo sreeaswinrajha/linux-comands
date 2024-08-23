@@ -5,7 +5,7 @@ creat,move and copy:
  rm => used to remove the file 
  rm *.php => delete all files with endind .php (used for multi deleting the files)
  gedit => used to edit using graphical interface
- 
+ Wc => to count the total number of words
 
 editing files:
    nano : used to edit
