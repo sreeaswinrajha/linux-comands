@@ -5,9 +5,10 @@ ifconfig
 netstat  => used to see what connection are on and connected (ex: sending or reciving of data)
 route => connection to where it can connect
 
-network connection:
-  two important comand for net:
-   network: sudo nmcli networking on
+network 
+   on the network: sudo nmcli networking on
    sudo service NetworkManager (start,restart,stop)
    go to setting change : adapter connection (nat or bridge)
+
+netstat -nano : what port are opend and connection
 
