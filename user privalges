@@ -2,9 +2,13 @@ r - read
 w - write 
 e - exectue 
 the prevlages allowed to see what operation can we do 
-ls -la
+ls -l
+ex :
 drwxr-xr-x => three groups drwxr-xr-x
-owner , group of user,all the users
+rwxr->owner ,
+xr->group of user,
+x->all the users
+
 
 /tmp => has full acess
 
