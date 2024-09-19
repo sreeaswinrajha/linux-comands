@@ -15,3 +15,8 @@ editing files:
 
 echo : used to create an file
 echo "he">he.txt
+
+
+find :
+commmand which is used to find an file in the directory
+find ./directory/ -name filename
