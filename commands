@@ -1,6 +1,9 @@
 to install an app :
   sudo apt-get install<package-name>
 
+create an note :
+touch hlo.txt
+
 ls => list the cotents in the cureent directory 
 command => (ls)
 ls -l => show more content details in the directory 
