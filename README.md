@@ -2,9 +2,9 @@
   sudo apt-get install<package-name>
 
 # listing files :
-ls => list the cotents in the cureent directory 
+*ls => list the cotents in the cureent directory 
 command => (ls)
-ls -l => show more content details in the directory 
+*ls -l => show more content details in the directory 
 
 
 # Help command:
@@ -19,10 +19,10 @@ ls -l => show more content details in the directory
 
 # short cut can be used in kernal
 move the curser:
-/ctr -A : starting line
-/ctr -e : end line
-/ctr - u : delete the before line commands
-/ctr - k : delete back word commands
+*ctr -A : starting line
+*ctr -e : end line
+*ctr - u : delete the before line commands
+*ctr - k : delete back word commands
 
 
 
