@@ -19,10 +19,10 @@ ls -l => show more content details in the directory
 
 # short cut can be used in kernal
 move the curser:
-ctr -A : starting line
-ctr -e : end line
-ctr - u : delete the before line commands
-ctr - k : delete back word commands
+/ctr -A : starting line
+/ctr -e : end line
+/ctr - u : delete the before line commands
+/ctr - k : delete back word commands
 
 
 
