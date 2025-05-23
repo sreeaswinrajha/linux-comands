@@ -9,3 +9,4 @@ where null is like an dustbin
 command : find -name (filename which we want) 2>/dev/null  (no gap if we use 2> in it)
 
 also e can use find / -name hlo.txt 
+find -name *.txt used to show all text file
