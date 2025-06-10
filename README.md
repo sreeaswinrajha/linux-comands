@@ -24,5 +24,11 @@ move the curser:
 * ctr - u : delete the before line commands
 * ctr - k : delete back word commands
 
+# Change name
+* If I wanted to replace the contents of a file named "passwords" with the word "password123", what would my command be?
+ <br> echo password123 > passwords </br>
+
+* Now if I wanted to add "hloworld" to this file named "passwords" but also keep "passwords123", what would my command be
+  <br> echo hloworld >> passwords </br>
 
 
