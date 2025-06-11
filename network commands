@@ -12,3 +12,5 @@ network
 
 netstat -nano : what port are opend and connection
 
+echo "ip dns" | sudo tee -a /etc/hosts
+tee is run with sudo, while redirection (>) is handled by the shell before sudo is applied.
