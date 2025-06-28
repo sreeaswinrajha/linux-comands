@@ -10,3 +10,8 @@ command : find -name (filename which we want) 2>/dev/null  (no gap if we use 2> 
 
 also e can use find / -name hlo.txt 
 find -name *.txt used to show all text file
+command	result
+find	      : search for files
+/	          : search everywhere
+-name	      : search for specific name
+2>/dev/null : 	special operand to throw away errors
