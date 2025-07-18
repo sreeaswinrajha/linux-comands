@@ -1,33 +1,80 @@
-# To install an app :
-  sudo apt-get install<package-name>
+# 🛠️ Linux Command Cheatsheet
 
-# listing files :
-* ls => list the cotents in the cureent directory 
-* ls -l => show more content details in the directory 
+## 📦 Installing Applications
 
+```bash
+sudo apt-get install <package-name>
+```
 
-# Help command:
-* man -> used to give mannual ex : man ls
-* maullal of ls(use / for search operation)
-* help -> used to show less detail help ex : ls --help
-* help how to use
-* apropos -> used to find ommands which we need to use ex : apropos (operation need to be perform),apropos list
-* show all comands usedd to list we need to go thrugh it to find the commands
-* stat -> display file or file system status
+> Installs a package using APT (Advanced Package Tool).
 
+---
 
-# short cut can be used in kernal
-move the curser:
-* ctr -A : starting line
-* ctr -e : end line
-* ctr - u : delete the before line commands
-* ctr - k : delete back word commands
+## 📁 Listing Files
 
-# Change name
-* If I wanted to replace the contents of a file named "passwords" with the word "password123", what would my command be?
- <br> echo password123 > passwords </br>
+| Command | Description                             |
+| ------- | --------------------------------------- |
+| `ls`    | Lists contents of the current directory |
+| `ls -l` | Lists with detailed information         |
 
-* Now if I wanted to add "hloworld" to this file named "passwords" but also keep "passwords123", what would my command be
-  <br> echo hloworld >> passwords </br>
+---
 
+## 📖 Help & Documentation
 
+| Command             | Description                                                            |
+| ------------------- | ---------------------------------------------------------------------- |
+| `man <command>`     | Opens the manual page for a command (Use `/` to search inside manual)  |
+| `<command> --help`  | Shows brief help info on how to use a command                          |
+| `help`              | Lists shell built-ins and basic command info                           |
+| `apropos <keyword>` | Searches manual page descriptions for a keyword (e.g., `apropos list`) |
+| `stat <file>`       | Displays detailed status about a file or filesystem                    |
+
+---
+
+## 🧠 Keyboard Shortcuts (Bash Shell)
+
+| Shortcut   | Action         |
+| ---------- | -------------- |
+| `Ctrl + A` | Move cursor to |
+
+| **start of the line** |                                         |
+| --------------------- | --------------------------------------- |
+| `Ctrl + E`            | Move cursor to **end of the line**      |
+| `Ctrl + U`            | Delete everything **before the cursor** |
+| `Ctrl + K`            | Delete everything **after the cursor**  |
+
+---
+
+## ✏️ File Editing with `echo`
+
+**Overwrite contents:**
+
+```bash
+echo "password123" > passwords
+```
+
+> Replaces all contents of the `passwords` file with `password123`.
+
+**Append to file:**
+
+```bash
+echo "hloworld" >> passwords
+```
+
+> Adds `hloworld` to the end of the `passwords` file, keeping existing content.
+
+---
+
+## 📂 Move Executable to Global Directory
+
+To make a CLI tool (like `caido`) accessible from anywhere:
+
+```bash
+sudo mv caido /usr/local/bin/
+```
+
+> 🔒 `sudo` is required because `/usr/local/bin/` is a **system-wide** directory for executables.
+
+---
+
+> ✨ Keep this file updated with useful command-line tricks for easy reference!
