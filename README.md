@@ -123,8 +123,67 @@ alias hlo="ls"
 | `bg`              | Move paused job to background      |
 | `fg`              | Bring background job to foreground |
 
----
+--- 
+## GREP
+# 📘 Regex Expression Cheat Sheet
 
+A developer-friendly guide to Regular Expressions (Regex), focusing on how to define rules for how code/text **starts**, **ends**, handles **uppercase/lowercase letters**, and uses **bracket expressions** (`[]`).
+
+
+
+## 🔹 Anchors – Start & End of Line
+
+| Symbol | Description           | Example     | Explanation                                 |
+|--------|------------------------|-------------|---------------------------------------------|
+| `^`    | Start of string/line   | `^abc`      | Matches any string that starts with "abc"   |
+| `$`    | End of string/line     | `xyz$`      | Matches any string that ends with "xyz"     |
+
+
+
+## 🔹 Character Classes – Match Letters, Digits
+
+| Pattern     | Description                     | Example     | Explanation                              |
+|-------------|---------------------------------|-------------|------------------------------------------|
+| `[A-Z]`     | Uppercase letters               | `^[A-Z]`    | Matches strings starting with uppercase  |
+| `[a-z]`     | Lowercase letters               | `[a-z]+`    | Matches one or more lowercase letters    |
+| `[0-9]`     | Digits                          | `[0-9]{3}`  | Matches exactly 3 digits                 |
+| `[A-Za-z]`  | Any letter                      | `[A-Za-z]+` | Matches one or more letters              |
+| `[^a-z]`    | Negation (not lowercase)        | `[^a-z]`    | Matches any character except lowercase   |
+
+
+## 🔹 Bracket Expression `[]` Rules
+
+Bracket expressions match **one character** from a set:
+
+| Pattern         | Matches                                      |
+|------------------|-----------------------------------------------|
+| `[abc]`          | One of 'a', 'b', or 'c'                       |
+| `[a-z]`          | Any lowercase letter                         |
+| `[A-Z]`          | Any uppercase letter                         |
+| `[0-9]`          | Any digit from 0 to 9                        |
+| `[a-zA-Z0-9_]`   | Any alphanumeric character or underscore     |
+| `[^0-9]`         | Any non-digit character                      |
+
+
+## 🔹 Quantifiers & Modifiers
+
+| Symbol    | Description                 | Example        | Explanation                             |
+|-----------|-----------------------------|----------------|-----------------------------------------|
+| `.`       | Any character except newline | `a.c`          | Matches "abc", "axc", etc.              |
+| `*`       | 0 or more repetitions        | `lo*l`         | Matches "ll", "lol", "lool", etc.       |
+| `+`       | 1 or more repetitions        | `lo+l`         | Matches "lol", "lool" but not "ll"      |
+| `?`       | 0 or 1 repetition            | `lo?l`         | Matches "ll" or "lol"                   |
+| `{n}`     | Exactly n times              | `[0-9]{4}`     | Matches exactly 4 digits                |
+| `{n,m}`   | Between n and m times        | `[a-z]{2,5}`   | 2 to 5 lowercase letters                |
+
+
+
+## 🧪 Real-world Example
+
+```regex
+^[A-Z][a-z]{3,8}[0-9]{2}$
+```
+---
 ## 🔒 File Permissions & Ownership
 
 | Symbol | Meaning |
