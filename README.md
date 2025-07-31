@@ -125,9 +125,7 @@ alias hlo="ls"
 
 --- 
 ## GREP
-# 📘 Regex Expression Cheat Sheet
-
-A developer-friendly guide to Regular Expressions (Regex), focusing on how to define rules for how code/text **starts**, **ends**, handles **uppercase/lowercase letters**, and uses **bracket expressions** (`[]`).
+# 📘 Regex Expression 
 
 
 
