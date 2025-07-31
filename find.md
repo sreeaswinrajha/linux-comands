@@ -10,7 +10,7 @@ The `find` command is used to **search for files and directories** on a Linux sy
 - `find` searches the **entire filesystem or a specific directory**
 - `locate` searches using a **pre-built index** (faster but less real-time)
 - `2>/dev/null` is used to **suppress permission denied errors**
-
+- `  find -name (filename which we want) 2>/dev/null  (no gap if we use 2> in it)` **it will search and move the error**
 ---
 
 ## 📂 Example Commands
