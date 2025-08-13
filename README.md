@@ -74,9 +74,10 @@ alias hlo="ls"
 
 * Use `cd` to change directory.
 * To access a space-separated folder like `exercise file`, use:
-
+* when file name starts with - we need to use ./ infront of the file name
   ```bash
   cd exercise\ file
+  cd ./--spaces\ in\ this\ filename--
   ```
 * To go back one level:
 
