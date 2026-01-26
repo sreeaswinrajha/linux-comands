@@ -1,9 +1,20 @@
+
+# Git and Package Management Commands
+
 git => works with github
-sudo apt-get install link
-git clone (link of the group)
+
+```bash
+sudo apt-get install git
+```
+
+```bash
+git clone <link of the group>
+```
 
 dpkg
-apt(advanced package tool)
 
+apt (advanced package tool)
+
+```bash
 pip3 install -r required.txt
-
+```
