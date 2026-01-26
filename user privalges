@@ -1,40 +1,136 @@
-r - read
-w - write 
-e - exectue 
-the prevlages allowed to see what operation can we do 
+
+# Linux Permissions, Users, and Groups
+
+## File Permissions
+
+- **r** → read  
+- **w** → write  
+- **e** → execute  
+
+The privileges allowed show what operations can be performed.
+
+```bash
 ls -l
-ex :
-drwxr-xr-x => three groups drwxr-xr-x
-rwxr->owner ,
-xr->group of user,
-x->all the users
+```
 
+### Example
 
-/tmp => has full acess
+```
+drwxr-xr-x
+```
 
-chmod => used to change the mode of operation which we are performing the acess of the file
+Three groups in permissions:
+
+- **rwx** → owner  
+- **r-x** → group of user  
+- **r-x** → all users  
+
+---
+
+## /tmp Directory
+
+```text
+/tmp
+```
+
+Has full access.
+
+---
+
+## Change File Permissions
+
+```bash
+chmod
+```
+Used to change the mode of operation (file access permissions).
+
+### Example
+
+```bash
 chmod 777 helo.txt
-change the aces to read,write,execute all three operation in it
+```
 
-adduser => adduser is used to add an user in the kali
+Gives read, write, and execute permissions to all users.
+
+---
+
+## User Management
+
+### Add User
+
+```bash
 adduser aswin
-create an new user named aswin
-userdel => used to delete user
+```
+
+Creates a new user named `aswin`.
+
+### Delete User
+
+```bash
 userdel aswin
-delete user aswin
+```
 
-sudo groupadd => add an group
-sudo gropadd family
+Deletes the user `aswin`.
 
-/etc/passwd => shows all the user 
-/etc/shadow => stores the password (in hash formate)
-/etc/group => view the group file
+---
 
-adduser => used to create an new user and group
-useradd => add user to the group
-sudo passwd ironman :
-assine the password to the user
-usermod : used to modify the user in which various operation we do
+## Group Management
 
-sudo visudo:
-used to change user permision which m=we can do
+```bash
+sudo groupadd family
+```
+
+Adds a new group named `family`.
+
+---
+
+## Important System Files
+
+```text
+/etc/passwd
+```
+Shows all users.
+
+```text
+/etc/shadow
+```
+Stores passwords in hash format.
+
+```text
+/etc/group
+```
+View group details.
+
+---
+
+## User and Group Commands
+
+```bash
+adduser
+```
+Used to create a new user and group.
+
+```bash
+useradd
+```
+Add user to a group.
+
+```bash
+sudo passwd ironman
+```
+Assigns password to the user `ironman`.
+
+```bash
+usermod
+```
+Used to modify user settings.
+
+---
+
+## Sudo Permissions
+
+```bash
+sudo visudo
+```
+
+Used to change user permissions.
