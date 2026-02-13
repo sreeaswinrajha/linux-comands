@@ -25,6 +25,7 @@ touch hlo.txt
 | `ls`    | Lists contents of the current directory |
 | `ls -l` | Lists with detailed information         |
 | `ls /home` | Lists  the content of the file  from another directory  (ls /(directory)_  |
+| `ls ../` List the content of files in previous directory |
 ---
 
 ## ⛓️ Aliases
