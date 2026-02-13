@@ -18,6 +18,15 @@ touch hlo.txt
 
 ---
 
+## 📄  Read a File
+
+| Command | Description                             |
+| ------- | --------------------------------------- |
+|  `cat`  | Read an file                            |
+|  `cat /directoryname/*` | Works for reading all files in that directory |
+|  `cat /var/www/html/*.txt` | Work for reading all files ending in *txt |
+---
+
 ## 📁 Listing Files
 
 | Command | Description                             |
@@ -25,7 +34,7 @@ touch hlo.txt
 | `ls`    | Lists contents of the current directory |
 | `ls -l` | Lists with detailed information         |
 | `ls /home` | Lists  the content of the file  from another directory  (ls /(directory)_  |
-| `ls ../` List the content of files in previous directory |
+| `ls ../`    | List the content of files in previous directory |
 ---
 
 ## ⛓️ Aliases
