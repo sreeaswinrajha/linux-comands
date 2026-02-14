@@ -198,7 +198,7 @@ fi
 ```
 
 ## 📚 Script to find open port
-```
+```bash
 #!/bin/bash
 read -p "enter the ip : " ip
 for i in {1:655356}
