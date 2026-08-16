@@ -39,6 +39,27 @@ The `find` command is used to **search for files and directories** on a Linux sy
 
 ---
 
+## Find the text from all the directory
+
+# Search recursively
+```grep -RniI "picoctf" .```
+
+### Summary
+|comand|Meaning|
+|----------|---------|
+|grep | → search for text/patterns |
+|-R   | → recursive; search subdirectories |
+|-n    |→ show line numbers|
+|-i   | → ignore case |
+|-I  |  → ignore binary files|
+|.  |   → current directory|
+
+Therefore:
+
+```grep -RniI "picoctf" .```
+
+---
+
 ## 🗑️ What is `/dev/null`?
 
 `/dev/null` is a **special device file** that discards all data written to it — like a digital trash can.
@@ -46,7 +67,7 @@ The `find` command is used to **search for files and directories** on a Linux sy
 When you run:
 ```bash
 find / -name secret.txt 2>/dev/null
-
+```
 
 ## 📁 Command Syntax
 
